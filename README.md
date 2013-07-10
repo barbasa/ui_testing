@@ -2,7 +2,7 @@
 - Install ruby >= 1.9.3
 - Install bundle: sudo gem install bundler --no-rdoc --no-ri
 - Install openssl for ruby: sudo apt-get install libopenssl-ruby
-- Install mysql cliet: sudo apt-get install libmysqlclient-dev
+- Install mysql client: sudo apt-get install libmysqlclient-dev
 - Install xvfb for headless tests: sudo apt-get install xvfb
 - run: bundle install
 

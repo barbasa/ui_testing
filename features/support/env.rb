@@ -6,6 +6,7 @@ require 'page-object'
 require 'page-object/page_factory'
 require 'active_record'
 require 'test-factory'
+require 'rspec/expectations'
 
 $: << File.dirname(__FILE__)+'/../../lib'
 

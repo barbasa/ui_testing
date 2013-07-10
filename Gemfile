@@ -15,3 +15,4 @@ gem 'xpath', '~>1.0.0'
 gem 'test-factory'
 gem "parallel_tests", :group => :development
 gem 'headless'
+gem 'rspec/expectations'

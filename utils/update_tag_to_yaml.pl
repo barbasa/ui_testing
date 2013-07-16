@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 use FindBin;
-use YAML;
+use YAML::Syck qw/ Dump /;
 use DBI;
 
 my $dbh = DBI->connect(
@@ -36,4 +36,6 @@ while (my $line = <$fh>) {
     }
 }
 
-print YAML::Dump({ category => \%category });
+$YAML::Syck::SingleQuote = 1;
+
+print Dump({ category => \%category });

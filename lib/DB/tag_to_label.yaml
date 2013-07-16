@@ -1,59 +1,90 @@
-category:
- 'consultancy-jobs': Consultancy Jobs
- 'charity-voluntary-jobs': Charity & Voluntary Jobs
- 'property-jobs': Property Jobs               
- 'it-jobs': IT Jobs
- 'legal-jobs': TBD
- 'customer-services-jobs':       
- 'teaching-jobs': TBD
- 'other-general-jobs': TBD
- 'accounting-finance-jobs':     
- 'retail-jobs': TBD
- 'manufacturing-jobs': TBD
- 'hospitality-catering-jobs':    
- 'healthcare-nursing-jobs': TBD
- 'trade-construction-jobs':      
- 'domestic-help-cleaning-jobs': 
- 'creative-design-jobs':         
- 'logistics-warehouse-jobs': 
- 'hr-jobs': 
- 'pr-advertising-marketing-jobs': TBD
- 'social-work-jobs': TBD
- 'travel-jobs': TBD
- 'energy-oil-gas-jobs':         
- 'maintenance-jobs': TBD
- 'scientific-qa-jobs':          
- 'graduate-jobs': TBD
- 'engineering-jobs':             
- 'part-time-jobs': TBD
- 'sales-jobs': TBD
- 'admin-jobs': TBD
- 'beraterstellen': Beraterstellen durchsuchen                            
- 'gemeinnützige-ehrenamtliche-stellen': Gemeinnützige & ehrenamtliche Stellen durchsuchen
- 'immobilienstellen': TBD
- 'it-stellen': TBD
- 'juristische-stellen': TBD
- 'kundendienststellen': TBD
- 'lehrberufe': TBD
- 'sonstige-allgemeine-stellen': TBD
- 'stellen-aus-buchhaltung-finanzwesen': TBD
- 'stellen-aus-einzelhandel': TBD
- 'stellen-aus-fertigung': TBD
- 'stellen-aus-gastronomie-catering': TBD
- 'stellen-aus-gesundheitswesen-pflege': TBD
- 'stellen-aus-handel-bau': TBD
- 'stellen-aus-haushaltshilfen-reinigung': TBD
- 'stellen-aus-kreation-design': TBD
- 'stellen-aus-logistik-lagerhaltung':          
- 'stellen-aus-personal-personalbeschaffung': TBD
- 'stellen-aus-pr-werbung-marketing': TBD
- 'stellen-aus-sozialarbeit': TBD
- 'stellen-aus-tourismus': TBD
- 'stellen-aus-versorgungsunternehmen': TBD
- 'stellen-aus-wartung': TBD
- 'stellen-aus-wissenschaft-qualitätssicherung': Stellen aus Wissenschaft & Qualitätssicherung 
- 'stellen-für-hochschulabsolventen': TBD
- 'technikerstellen': TBD
- 'teilzeitstellen': TBD
- 'vertriebsstellen': TBD
- 'verwaltungsstellen': TBD
+--- 
+"category": 
+  "": 'Other/General Jobs'
+  "accounting-finance-jobs": 'Accounting & Finance Jobs'
+  "admin-jobs": 'Admin Jobs'
+  "beraterstellen": 'Beraterstellen'
+  "charity-voluntary-jobs": 'Charity & Voluntary Jobs'
+  "consultancy-jobs": 'Consultancy Jobs'
+  "creative-design-jobs": 'Creative & Design Jobs'
+  "customer-services-jobs": 'Customer Services Jobs'
+  "domestic-help-cleaning-jobs": 'Domestic help & Cleaning Jobs'
+  "energy-oil-gas-jobs": 'Energy, Oil & Gas Jobs'
+  "engineering-jobs": 'Engineering Jobs'
+  "gemeinn\xFCtzige-ehrenamtliche-stellen": 'Gemeinnützige & ehrenamtliche Stellen'
+  "graduate-jobs": 'Graduate Jobs'
+  "healthcare-nursing-jobs": 'Healthcare & Nursing Jobs'
+  "hospitality-catering-jobs": 'Hospitality & Catering Jobs'
+  "hr-jobs": 'HR & Recruitment Jobs'
+  "immobilienstellen": 'Immobilienstellen'
+  "it-jobs": 'IT Jobs'
+  "it-stellen": 'IT-Stellen'
+  "juristische-stellen": 'Juristische Stellen'
+  "kundendienststellen": 'Kundendienststellen'
+  "legal-jobs": 'Legal Jobs'
+  "lehrberufe": 'Lehrberufe'
+  "logistics-warehouse-jobs": 'Logistics & Warehouse Jobs'
+  "maintenance-jobs": 'Maintenance Jobs'
+  "manufacturing-jobs": 'Manufacturing Jobs'
+  "other-general-jobs": 'Other/General Jobs'
+  "part-time-jobs": 'Part time Jobs'
+  "pr-advertising-marketing-jobs": 'PR, Advertising & Marketing Jobs'
+  "property-jobs": 'Property Jobs'
+  "retail-jobs": 'Retail Jobs'
+  "sales-jobs": 'Sales Jobs'
+  "scientific-qa-jobs": 'Scientific & QA Jobs'
+  "social-work-jobs": 'Social work Jobs'
+  "sonstige-allgemeine-stellen": 'Sonstige/Allgemeine Stellen'
+  "stellen-aus-buchhaltung-finanzwesen": 'Stellen aus Buchhaltung & Finanzwesen'
+  "stellen-aus-einzelhandel": 'Stellen aus Einzelhandel'
+  "stellen-aus-fertigung": 'Stellen aus Fertigung'
+  "stellen-aus-gastronomie-catering": 'Stellen aus Gastronomie & Catering'
+  "stellen-aus-gesundheitswesen-pflege": 'Stellen aus Gesundheitswesen & Pflege'
+  "stellen-aus-handel-bau": 'Stellen aus Handel & Bau'
+  "stellen-aus-haushaltshilfen-reinigung": 'Stellen aus Haushaltshilfen & Reinigung'
+  "stellen-aus-kreation-design": 'Stellen aus Kreation & Design'
+  "stellen-aus-logistik-lagerhaltung": 'Stellen aus Logistik & Lagerhaltung'
+  "stellen-aus-personal-personalbeschaffung": 'Stellen aus Personal & Personalbeschaffung'
+  "stellen-aus-pr-werbung-marketing": 'Stellen aus PR, Werbung & Marketing'
+  "stellen-aus-sozialarbeit": 'Stellen aus Sozialarbeit'
+  "stellen-aus-tourismus": 'Stellen aus Tourismus'
+  "stellen-aus-versorgungsunternehmen": 'Stellen aus Versorgungsunternehmen'
+  "stellen-aus-wartung": 'Stellen aus Wartung'
+  "stellen-aus-wissenschaft-qualit\xE4tssicherung": 'Stellen aus Wissenschaft & Qualitätssicherung'
+  "stellen-f\xFCr-hochschulabsolventen": 'Stellen für Hochschulabsolventen'
+  "teaching-jobs": 'Teaching Jobs'
+  "technikerstellen": 'Technikerstellen'
+  "teilzeitstellen": 'Teilzeitstellen'
+  "trabalhos-voluntarios-caridade": 'Trabalhos para Voluntários'
+  "trade-construction-jobs": 'Trade & Construction Jobs'
+  "travel-jobs": 'Travel Jobs'
+  "vagas-administracao": 'Vagas em Administrativo e Operacional'
+  "vagas-atendimento-cliente": 'Vagas em Atendimento ao Cliente'
+  "vagas-cientifica-qualidade": 'Vagas em Ciência e Controle de Qualidade'
+  "vagas-comercio-construcao": 'Vagas em Construção'
+  "vagas-consultoria": 'Vagas em Consultoria'
+  "vagas-contabilidade-financas": 'Vagas em Contabilidade e Finanças'
+  "vagas-criacao-design": 'Vagas em Criação e Design'
+  "vagas-direito": 'Vagas na área Jurídica'
+  "vagas-domesticas-limpeza": 'Vagas de Limpeza'
+  "vagas-energia-oleo-gas": 'Vagas em Petróleo e Gás'
+  "vagas-enfermagem-saude": 'Vagas em Saúde'
+  "vagas-engenharia": 'Vagas em Engenharia'
+  "vagas-graduados": 'Vagas para Recém Formados'
+  "vagas-hospitalidade": 'Vagas em Hospitalidade e Restaurante'
+  "vagas-imoveis": 'Vagas em Imóveis'
+  "vagas-industria": 'Vagas no ramo Industrial'
+  "vagas-it": 'Vagas em Tecnologia Informática'
+  "vagas-logistica": 'Vagas em Logística'
+  "vagas-manutencao": 'Vagas em Manutenção'
+  "vagas-meio-periodo": 'Vagas de Meio Período'
+  "vagas-outras": 'Outras vagas'
+  "vagas-pr-propaganda-marketing": 'Vagas em Propaganda e Marketing'
+  "vagas-professores": 'Vagas em Ensino'
+  "vagas-rh-recrutamento": 'Vagas em Recursos Humanos'
+  "vagas-trabalhos-sociais": 'Vagas em Serviços Sociais'
+  "vagas-turismo": 'Vagas em Turismo'
+  "vagas-varejo": 'Vagas em Varejo'
+  "vagas-vendas": 'Vagas em Vendas'
+  "vertriebsstellen": 'Vertriebsstellen'
+  "verwaltungsstellen": 'Verwaltungsstellen'

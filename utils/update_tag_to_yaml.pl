@@ -12,7 +12,7 @@ my $dbh = DBI->connect(
     "root", "rootpass"
 ) or die $DBI::err;
 
-open(my $fh, "<", "$FindBin::Bin/../../public/Configuration/common/message/category_localisation.conf") or die $!;
+open(my $fh, "<:utf8", "$FindBin::Bin/../../public/Configuration/common/message/category_localisation.conf") or die $!;
 
 my %category;
 

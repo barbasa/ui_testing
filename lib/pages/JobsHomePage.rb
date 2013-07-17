@@ -33,6 +33,7 @@ class JobsHomePage
     category_tag = eval tag_column
     category_link = category_tag.gsub("-","_")
     eval category_link
+    return []
   end
 
 end

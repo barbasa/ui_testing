@@ -16,7 +16,6 @@ class Category < ActiveRecord::Base
     
     tags = []
     categories.each do |category|
-        tag_column = "category.tag_#{country_code}"
         tags.push(category["tag_"+country_code])
     end
     tags

@@ -29,11 +29,9 @@ class JobsHomePage
   end
 
   def go_to_browse_page(category,cc)
-    tag_column = "category.tag_#{cc}"
-    category_tag = eval tag_column
+    category_tag = category["tag_"+cc]
     category_link = category_tag.gsub("-","_")
-    eval category_link
-    return []
+    return send(category_link)
   end
 
 end

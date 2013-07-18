@@ -1,6 +1,16 @@
 require 'cucumber'
 require 'cucumber/rake/task'
 
-Cucumber::Rake::Task.new :cucumber
+namespace :mode do
+  Cucumber::Rake::Task.new(:headless) do |t|
+    t.profile = 'headless'
+  end
 
-task :default => :cucumber
+  Cucumber::Rake::Task.new(:default) do |t|
+    t.profile = 'default'
+  end
+
+  task :ci => [:headless]
+end
+
+task :default => :default

@@ -13,13 +13,11 @@ class JobsHomePage
   end
 
   def self.category_tags
-    DB.instance.connect
     Category.get_all_tags self.country_code
   end
 
   ###### Instance methods
   def categories
-    DB.instance.connect
     Category.get_all
   end
 

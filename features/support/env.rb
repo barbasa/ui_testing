@@ -1,5 +1,9 @@
-UK_BASE_URL = "http://www.adzuna.co.uk/"
+AU_BASE_URL = "http://www.adzuna.com.au/"
+BR_BASE_URL = "http://www.adzuna.com.br/"
+CA_BASE_URL = "http://www.adzuna.ca/"
 DE_BASE_URL = "http://www.adzuna.de/"
+UK_BASE_URL = "http://www.adzuna.co.uk/"
+ZA_BASE_URL = "http://www.adzuna.co.za/"
 
 require 'watir-webdriver'
 require 'page-object'

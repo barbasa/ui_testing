@@ -10,5 +10,9 @@ Scenario Outline: Browse through jobs category from the home page
 
 Examples:
      | country |
-     | UK      |
+     | AU      |
+     | BR      |
+     | CA      |
      | DE      |
+     | UK      |
+     | ZA      |

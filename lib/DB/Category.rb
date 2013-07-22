@@ -19,12 +19,28 @@ class Category
     }
   end
 
+  def tag_au
+    return @data["tag_au"]
+  end
+
+  def tag_br
+    return @data["tag_br"]
+  end
+
+  def tag_ca
+    return @data["tag_ca"]
+  end
+
   def tag_de
     return @data["tag_de"]
   end
 
   def tag_uk
     return @data["tag_uk"]
+  end
+
+  def tag_za
+    return @data["tag_za"]
   end
 
   def [](attr_name)

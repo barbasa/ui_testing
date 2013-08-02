@@ -10,8 +10,10 @@ class JobsAdvSearch
 
   radio_button :contract_type_permanent, :id => 'adv_contract_type_permanent'
   radio_button :contract_type_contract,  :id => 'adv_contract_type_contract'
+  link         :clear_contract_type, :xpath => "//table[@class='adv']//tr[8]//a[@href='#']"
   radio_button :contract_time_full_time, :id => 'adv_contract_time_full_time'
   radio_button :contract_time_part_time, :id => 'adv_contract_time_part_time'
+  link         :clear_contract_time, :xpath => "//table[@class='adv']//tr[9]//a[@href='#']"
   radio_button :freshness_1,             :id => 'adv_freshness_1'
   radio_button :freshness_3,             :id => 'adv_freshness_3'
   radio_button :freshness_7,             :id => 'adv_freshness_7'
@@ -22,6 +24,7 @@ class JobsAdvSearch
   select_list :per_page,                 :id => 'adv_per_page'
 
   select_list :sorting,                  :id => 'sorting'
+
 
   a :search, :class => 'btn'
 
@@ -55,12 +58,16 @@ class JobsAdvSearch
         select_contract_time_part_time
     elsif criteria[:hours].eql? "fulltime"
         select_contract_time_full_time
+    else
+        clear_contract_time if clear_contract_time?
     end
 
     if criteria[:contract_type].eql? "permanent"
         select_contract_type_permanent
     elsif criteria[:contract_type].eql? "contract"
         select_contract_type_contract
+    else
+        clear_contract_type if clear_contract_type?
     end
 
     case criteria[:freshness_days].to_i

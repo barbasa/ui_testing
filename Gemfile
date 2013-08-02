@@ -4,7 +4,7 @@ gem 'rake'
 gem 'cucumber'
 gem 'rspec'
 gem 'page-object'
-gem 'watir-webdriver'
+gem 'watir-webdriver', "~> 0.6.4"
 gem 'activerecord'
 gem "capybara", "< 2.0.3"
 gem 'sauce-connect'
